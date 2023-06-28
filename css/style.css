@@ -1,4 +1,14 @@
 body {
   background-color: #ddd;
   min-height: 2000px;
+  overflow-x: hidden;
+}
+
+/* Carousel */
+.carousel-container {
+  width: 100vw;
+  min-height: calc(100vh - 95px);
+  background-color: red;
+  position: absolute;
+  margin-top: 95px;
 }
